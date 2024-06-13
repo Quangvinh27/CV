@@ -1,0 +1,24 @@
+@media only screen and (min-width: 768px) and (max-width: 1023px){
+    nav .navbar-brand {
+        display: none;
+    }
+    .topnav a {
+        padding: 10px 20px;
+    }
+    .grid {
+        grid-template-columns: 1fr 1fr;
+    }
+    .layout{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 450px 450px;
+        grid-gap: 20px;
+        padding: 20px;
+    }
+    .chungchigrid{
+        grid-template-columns: 1fr 1fr;
+    }
+    .duangrid{
+        grid-template-columns: 1fr 1fr;
+    }
+}

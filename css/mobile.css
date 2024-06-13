@@ -1,0 +1,31 @@
+@media only screen and (max-width: 480px) {
+    .topnav a {
+        display: block;
+        padding: 10px;
+    }
+    .grid {
+        grid-template-columns: 1fr;
+    }
+    .layout {
+        grid-template-columns: 1fr;
+    }
+    .chungchigrid{
+        grid-template-columns: 1fr;
+    }
+    .chungchi1{
+        padding: 10px;
+        border-right:none;
+        border-bottom:solid #d6c08d;
+        padding-left: 50px;
+    }
+    .chungchi2{
+        padding-left: 50px;
+        border-bottom:solid #d6c08d;
+    }
+    hr{
+        display: none;
+    }
+    .duangrid{
+        grid-template-columns: 1fr;
+    }
+}
